@@ -4,7 +4,8 @@
 
 (defvar my-packages '(better-defaults
 		      projectile
-		      clojure-mode
+		      paredit
+                      clojure-mode
 		      cider))
 
 (dolist (p my-packages)
