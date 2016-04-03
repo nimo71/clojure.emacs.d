@@ -7,9 +7,8 @@
 		      paredit
                       rainbow-delimiters
                       clojure-mode
-		      cider
-                      magit))
-
+		      cider))
+                      
 (dolist (p my-packages)
   (unless (package-installed-p p)
     (package-install p)))
